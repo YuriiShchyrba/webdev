@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <title>webdev</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
-        <div class="wrapper">
+        <div class="wrapper header__wrapper">
             <nav class="header_navigation">
                 <ul class="navigation">
-                    <li>About</li>
-                    <li>Syllabus</li>
-                    <li><img src="assets/Vector.png" alt="Logo"></li>
-                    <li>Projects</li>
-                    <li>FAQ</li>
+                    <li class="navigation__link">About</li>
+                    <li class="navigation__link">Syllabus</li>
+                    <li class="navigation__link"><img src="assets/Vector.png" alt="Logo"></li>
+                    <li class="navigation__link">Projects</li>
+                    <li class="navigation__link">FAQ</li>
                 </ul>
             </nav>
         </div>
@@ -23,7 +24,7 @@
     <section class="first">
         <div class="wrapper">
             <h1>YOUR LIFE IS WEBDEV</h1>
-            <p>Whatever the approach to development may be, the final program must satisfy some fundamental properties</p>
+            <p class="first_par">Whatever the approach to development may be, the final program must satisfy some fundamental properties</p>
             <button class="button">GET STARTED</button>
             <div class="social">
                 <ul>
@@ -38,7 +39,7 @@
     <section class="second">
         <div class="wrapper">
             <div>
-                <h2>RAPPRESENT YOUR IDEA WITH A SMART DESIGN</h2>
+                <h3>RAPPRESENT YOUR IDEA WITH A SMART DESIGN</h3>
                 <p>Tasks accompanying and related to programming include: testing, debugging, source code maintenance, implementation of build systems, and management of derived artifacts, such as the machine code of computer programs. </p>
                 <button class="button">GET STARTED</button>
             </div>
@@ -78,7 +79,7 @@
         <div class="wrapper">
             <h3>SIGN UP FOR OUR NEWSLETTER</h3>
             <form>
-                <textarea>E-mail</textarea>
+                <input value="E-mail"></input>
                 <button class="button">✓</button>
             </form>
         </div>
