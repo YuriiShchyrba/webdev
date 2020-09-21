@@ -55,3 +55,54 @@ h4{
     padding: 0 30px 0 30px;
     display: inline-block;
 }
+
+.first{
+    background-image: url('assets/bg-image.png');
+    color: #ffffff;
+    padding: 75px 50px 80px 435px;
+}
+
+.first__header{
+    margin: 0px;
+    padding: 30px 0 0 0 ;
+}
+
+.first_par{
+    padding-bottom: 37px;
+}
+
+.button{
+    background-color: #00AFDB;
+    color: white;
+    padding: 15px 40px;
+}
+
+.social{
+    list-style-type: none;
+    display: flex;
+    padding-left: 120px;
+}
+
+.social li{
+    padding: 95px 5px 0px 25px;
+}
+
+.second__wrapper{
+    display: flex;
+}
+
+.second{
+    padding: 120px 0 130px 0;
+}
+
+.second__info{
+    padding: 150px 0 0 140px;
+}
+
+.second__info{
+    padding-bottom: 20px;
+}
+
+.second__img{
+    padding-left: 200px;
+}
