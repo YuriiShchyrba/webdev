@@ -1,1 +1,1 @@
-# webdev
+https://yuriishchyrba.github.io/webdev/
